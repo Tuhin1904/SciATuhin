@@ -1,0 +1,68 @@
+.footer{
+    position: relative; /* Establish a positioning context for absolute positioning */
+    width: 100%;
+    height: 30rem;
+    background-image: url('../media/img9.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* 
+<img src={Image9} alt="logo" className="img1"/> */
+.leftF{
+  position: absolute;
+  top: 35%; /* Adjust the vertical position */
+  left: 8%; /* Adjust the horizontal position */
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  background-color: transparent;
+  margin: 3rem 1.5rem;
+}
+.lower{
+    position: absolute;
+    top:86%;
+    left:20%;
+    background-color: transparent;
+}
+.lower p{
+    background-color: transparent;
+    color: wheat;
+}
+.rightF{
+    position:absolute;
+    top: 20%;
+    left:70%;
+    background-color: transparent;
+
+}
+.rightF h3{
+    background-color: transparent;
+    color: white;
+    font-weight: light;
+}
+.rightF .logo1{
+    background-color: transparent;
+    display: flex;
+    margin: 0.6rem 6rem;
+}
+.rightF .logo1 span{
+    background-color: transparent;
+    margin: 0 0.5rem;
+}
+.leftF img{
+    width: 4rem;
+    margin: 1rem 0 0 1rem;
+    border-radius: 2rem;
+    border: 1px solid white;
+}
+.leftF h3{
+    background-color: transparent;
+    color: white;
+}
+.leftF p{
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+}

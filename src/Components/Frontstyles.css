@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    padding: 0;
+    background-color: white;
+    
+}
+.front1{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+}
+.front1 .content{
+    padding: 5rem;
+    text-align: center;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color:rgba(180, 134, 134, 0.5); */
+}
+.front1 .content h3{
+    margin-top: 3rem;
+    font-size: 4vh;
+    padding: .5rem 0.5rem;
+    background: linear-gradient(to right, #ff6207, #06eb3f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* background-color: black; */
+    font-family: 'Josefin Sans', sans-serif;
+}
+.universities .firstrow .eachUniv{
+    padding: 15px;
+    background-image: url('../media/img10.jpg');
+    background-size: cover;
+    margin: 2rem;
+    font-weight: 600;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    width:12rem;
+    height: 7.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 0px 15px 15px 0 rgba(46, 43, 43, 0.7);
+}
+#eachU{
+    margin: 2rem 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+.universities .firstrow{
+    display: flex;
+    /* background-color: black; */
+}
+.universities .secrow .eachUniv{
+    padding: 15px;
+    background-image: url('../media/img10.jpg');
+    background-size: cover;
+    margin: 2rem;
+    font-weight: 600;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    width:12rem;
+    height: 7.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 0px 15px 15px 0 rgba(46, 43, 43, 0.7);
+}
+.universities .secrow{
+    display: flex;
+    /* background-color: black; */
+}
+.universities .thirdrow .eachUniv{
+    padding: 15px;
+    background-image: url('../media/img10.jpg');
+    background-size: cover;
+    margin: 2rem;
+    font-weight: 600;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    width:12rem;
+    height: 7.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 0px 15px 15px 0 rgba(46, 43, 43, 0.7);
+}
+.universities .thirdrow{
+    display: flex;    
+    /* background-color: black; */
+
+}
+.thirdrow p{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.mentors .firstrowM{
+    display: flex;
+    margin: 0 0 3rem 0;
+}
+.mentors .secrowM{
+    display: flex;
+}
+.mentors .thirdrowM{
+    display: flex;
+}  
+
+.imgM{
+    width: 7rem;
+    height: 7rem;
+    margin: 10px 3.5rem;
+    border-radius: 3.5rem;
+    box-shadow: 0px 15px 15px 0 rgba(46, 43, 43, 0.7);
+}
+h2{
+    margin-top: 10rem;
+    margin-bottom:3rem ;
+    background: linear-gradient(to right, #ff6207, #06eb3f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;   
+}
+.firstrowM{
+    margin: 2rem ;
+}
+.uname{
+    font-size: 0.9rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.eachMentor p{
+
+    font-family: 'Josefin Sans', sans-serif;
+}
+.eachMentor button{
+    border-radius: 7px;
+    padding: 1px;
+    background: linear-gradient(to right, #ff6207, #06eb3f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    border: 1px solid linear-gradient(to right, #ff6207, #06eb3f);
+    color: transparent;   
+}
